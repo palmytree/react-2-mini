@@ -21,11 +21,6 @@ class App extends Component {
 		this.updateFamily = this.updateFamily.bind(this);
 		this.updateEditStatus = this.updateEditStatus.bind(this);
 	}
-	update(val, propName) {
-		this.setState({
-			[propName]: val,
-		});
-	}
 	// updateColor
 	updateColor(val) {
 		this.setState({
